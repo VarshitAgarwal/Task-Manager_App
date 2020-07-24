@@ -4,7 +4,7 @@ const userRouter = require('./routers/user')
 const taskRouter = require('./routers/task')
 
 const app = express()
-const port = process.env.PORT || 5000
+const port = process.env.PORT 
 
 // app.use((req, res, next) => {
 //     if (req.method === 'GET') {
@@ -26,7 +26,8 @@ app.listen(port, () => {
     console.log('Server is up on port ' + port)
 })
 
-// const jwt = require('jsonwebtoken')
+// const jwt = require('jsonwebtoken')ls
+
 
 // const myFunction = async () => {
 //     const token = jwt.sign({ _id: 'abc123' }, 'thisismynewcourse', { expiresIn: '7 days' })
